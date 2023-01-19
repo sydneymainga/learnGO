@@ -8,7 +8,7 @@ import (
 func main() {
 	fmt.Println("welcome to slice ")
 	var fruitlist = []string{"apple", "guava", "tomatoe"}
-	fmt.Println("type of fruitlist is %T\n", fruitlist)
+	fmt.Printf("type of fruitlist is : %T \n", fruitlist)
 
 	fruitlist = append(fruitlist, "pineapple", "banana")
 
